@@ -4,7 +4,6 @@ package com.learning;
 import java.util.Scanner;
 
 public class GradeCalculator {
-    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
