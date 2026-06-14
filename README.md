@@ -126,6 +126,7 @@ Program features:
 
 **Find**: `src/main/java/com/learning/GradeManager.java`
 
+---
 ### Day 5 — GradeCalculatorWithMethods  
 
 Concepts learned:
