@@ -39,6 +39,7 @@ The goal is to build a solid foundation in programming and software development 
 | 2 | if/else Statements, Comparison Operators | TemperatureConverter |
 | 3 | Loops, Accumulators, Grade Calculations | GradeCalculator |
 | 4 | ArrayLists, loops, finding max/min, average calculations | GradeManager |
+| 5 | Methods, parameters, returning values | GradeCalculatorWithMethods |
 
 ---
 
@@ -107,9 +108,9 @@ Program features:
 
 Concepts learned:
 
-- ArrayLists  
-- for loops with lists  
-- indexing lists  
+- `ArrayLists`
+- `for` loops with `lists`  
+- indexing `lists`  
 - finding sum of values  
 - finding max and min values  
 - basic data processing  
@@ -124,3 +125,25 @@ Program features:
 - Finds lowest grade  
 
 **Find**: `src/main/java/com/learning/GradeManager.java`
+
+### Day 5 — GradeCalculatorWithMethods  
+
+Concepts learned:
+
+- `Methods` (functions)  
+- Returning values from methods  
+- Parameters  
+- Breaking programs into smaller parts  
+- Reusing code  
+- `ArrayList` with methods  
+
+Program features:
+
+- Stores multiple student grades  
+- Uses methods to organize the program  
+- Calculates average grade  
+- Finds highest grade  
+- Finds lowest grade  
+- Displays all grades entered  
+
+**Find**: `src/main/java/com/learning/GradeCalculatorWithMethods.java`
