@@ -1,3 +1,4 @@
+/* Day Five of Thirty of Learning Java */
 package com.learning;
 
 import java.util.ArrayList;
@@ -59,30 +60,24 @@ public class GradeManagerWithMethods {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Ask user how many grades
         System.out.print("How many grades do you want to enter? Enter here: ");
         int numGrades = scanner.nextInt();
         
-        // Call readGrades method to get grades from user
         ArrayList<Double> grades = readGrades(numGrades);
         
-        // Call displayGrades to show all grades
         displayGrades(grades);
         
         System.out.println("\n--- Performance Info ---");
         
-        // Call calculateAverage and display result
         double average = calculateAverage(grades);
         System.out.println("Average: " + average);
         
-        // Call findHighest and display result
         double highest = findHighest(grades);
         System.out.println("Highest Grade: " + highest);
-        
-        // Call findLowest and display result
+    
         double lowest = findLowest(grades);
         System.out.println("Lowest Grade: " + lowest);
         
-        scanner.close(); // Close Scanner
+        scanner.close();
     }
 }
