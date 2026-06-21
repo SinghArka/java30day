@@ -8,7 +8,6 @@ public class GradeManagerWithMethods {
     @SuppressWarnings("ConvertToTryWithResources")
     
     public static ArrayList<Double> readGrades(int numGrades) {
-        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         ArrayList<Double> grades = new ArrayList<>();
         
